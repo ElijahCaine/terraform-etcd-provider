@@ -1,0 +1,58 @@
+TODO:
+
+- [ ] Feature implementation
+- [ ] Feature testing
+- [ ] Documentation for component
+- [ ] Examples of hw to use component
+
+For each component in etcdctl:
+
+- [ ] alarm disarm
+- [ ] alarm list
+- [ ] auth disable
+- [ ] auth enable
+- [ ] compaction
+- [ ] defrag
+- [ ] del
+- [ ] elect
+- [ ] endpoint health
+- [ ] endpoint status
+- [ ] get
+- [ ] help
+- [ ] lease grant
+- [ ] lease keep-alive
+- [ ] lease revoke
+- [ ] lock
+- [ ] make-mirror
+- [~] member *
+  - [~] member add
+  - [~] member list
+  - [~] member remove
+  - [~] member update
+- [ ] migrate
+- [ ] put
+- [ ] role add
+- [ ] role delete
+- [ ] role get
+- [ ] role grant-permission
+- [ ] role list
+- [ ] role revoke-permission
+- [ ] snapshot restore
+- [ ] snapshot save
+- [ ] snapshot status
+- [ ] txn
+- [ ] user add
+- [ ] user delete
+- [ ] user get
+- [ ] user grant-role
+- [ ] user list
+- [ ] user passwd
+- [ ] user revoke-role
+- [ ] version
+- [ ] watch
+
+Key:
+
+- [ ] (Yet to be started)
+- [~] (Features is complete but it is untested and/or undocumented)
+- [X] (Completed)

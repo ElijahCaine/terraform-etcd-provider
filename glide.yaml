@@ -1,0 +1,13 @@
+# Note: One must manually remove all `vendor` subdirectories for a clean `glide install` to build.
+package: github.com/elijahcaine/terraform-provider-etcd
+import:
+- package: github.com/coreos/etcd
+  version: v3.2.7
+  subpackages:
+  - clientv3
+- package: github.com/hashicorp/terraform
+  version: v0.10.4
+  subpackages:
+  - helper/schema
+  - plugin
+  - terraform
